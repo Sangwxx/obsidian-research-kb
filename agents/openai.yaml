@@ -1,0 +1,6 @@
+interface:
+  display_name: "Obsidian 科研知识库"
+  short_description: "初始化、升级并维护可复用的科研 Obsidian 工作流"
+  default_prompt: "使用 $obsidian-research-kb 为当前课题初始化一个科研知识库。"
+policy:
+  allow_implicit_invocation: true
