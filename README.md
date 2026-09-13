@@ -33,3 +33,13 @@ powershell -ExecutionPolicy Bypass -File scripts/validate_vault.ps1 `
 ## 安全设计
 
 AI 内容先写入 `05-AI知识/00-待审核`，不会直接成为已确认事实。初始化脚本默认不覆盖已有文件；插件安装需要用户明确请求。
+
+## 相关项目
+
+本文对应的自动化工具：
+[https://github.com/Sangwxx/obsidian-research-kb](https://github.com/Sangwxx/obsidian-research-kb)
+
+完整实践系列：
+[https://github.com/Sangwxx/from-zero-with-ai](https://github.com/Sangwxx/from-zero-with-ai)
+
+本项目采用 [MIT License](LICENSE)。
